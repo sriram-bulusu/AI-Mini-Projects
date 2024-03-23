@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = false
+name = "pip_conf_index_global"
+
+[packages]
+ipywidgets = "*"
+optuna = "*"
+pydantic = "*"
+filterpy = "==1.4.5"
+transformers = "==4.35.1"
+datasets = "==2.14.6"
+accelerate = "==0.24.1"
+nvidia-ml-py3 = "==7.352.0"
+pygobject = "==3.40.1"
+pytest = "==6.2.5"
+prml = {git = "git+https://github.com/pantelis-classes/PRML.git#egg=prml"}
+seaborn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
